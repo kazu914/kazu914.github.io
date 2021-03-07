@@ -4,7 +4,6 @@
   "description": "My web site built with gatsby",
   "version": "0.1.0",
   "author": "Kazuaki Nomura <nkz0914ssk@gmail.com>",
-
   "homepage": "https://kazu914.github.io/",
   "dependencies": {
     "@types/react": "^17.0.2",
