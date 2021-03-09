@@ -45,7 +45,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "tsc": "tsc --noEmit",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -b master -d public"
+    "deploy": "gh-pages -b gh-pages -d public"
   },
   "repository": {
     "type": "git",
