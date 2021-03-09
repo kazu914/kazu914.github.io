@@ -2853,11 +2853,6 @@ export type Unnamed_1_QueryVariables = Exact<{ [key: string]: never; }>;
 
 export type Unnamed_1_Query = { site?: Maybe<{ siteMetadata?: Maybe<Pick<SiteSiteMetadata, 'title' | 'description' | 'author'>> }> };
 
-export type AboutQueryVariables = Exact<{ [key: string]: never; }>;
-
-
-export type AboutQuery = { site?: Maybe<{ siteMetadata?: Maybe<Pick<SiteSiteMetadata, 'title'>> }> };
-
 export type BlogIndexQueryVariables = Exact<{
   slug: Scalars['String'];
 }>;
