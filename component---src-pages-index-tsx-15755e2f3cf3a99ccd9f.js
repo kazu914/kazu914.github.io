@@ -1,0 +1,2 @@
+(self.webpackChunkmy_web_site=self.webpackChunkmy_web_site||[]).push([[691],{6738:function(e,t,n){"use strict";n.r(t);var l=n(7294),u=n(2755),c=n(9470);t.default=function(){return l.createElement(u.Z,null,l.createElement(c.Z,{title:"Home"}),l.createElement("p",null,"鋭意作成中"))}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-15755e2f3cf3a99ccd9f.js.map
