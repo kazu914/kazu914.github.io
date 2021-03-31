@@ -1,37 +1,33 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { AppBar, Box } from "@material-ui/core"
 
 interface Props {
   siteTitle: string
 }
 
 const Header = ({ siteTitle }: Props): JSX.Element => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
+  <AppBar position="static" elevation={0} style={{ backgroundColor: "black" }}>
+    <Box display="flex" justifyContent="center">
+      <Link
+        to="/"
+        style={{
+          textDecoration: "none",
+          color: "black",
+        }}
+      >
+        <Box
+          p={4}
+          py={1}
+          my={2}
+          fontSize="h4.fontSize"
+          style={{ backgroundColor: "white" }}
         >
           {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+        </Box>
+      </Link>
+    </Box>
+  </AppBar>
 )
 
 export default Header
