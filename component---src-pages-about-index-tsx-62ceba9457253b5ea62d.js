@@ -1,0 +1,2 @@
+(self.webpackChunkmy_web_site=self.webpackChunkmy_web_site||[]).push([[154],{1226:function(e,t,n){"use strict";n.r(t),n.d(t,{default:function(){return c}});var l=n(453),r=n(7294),u=n(7785),a=n(2069);function c(){return r.createElement(u.Z,null,r.createElement("div",null,r.createElement(l.Z,{variant:"h3",align:"center",style:{margin:40}},"About me")),r.createElement(a.X,null))}}}]);
+//# sourceMappingURL=component---src-pages-about-index-tsx-62ceba9457253b5ea62d.js.map
