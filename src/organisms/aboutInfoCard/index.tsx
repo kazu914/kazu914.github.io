@@ -1,6 +1,6 @@
 import { Card, CardMedia, Grid, makeStyles } from "@material-ui/core"
 import React from "react"
-import { InfoCardContent } from "../../molecules"
+import { InfoCardContent, SNSIcons } from "../../molecules"
 
 const useStyles = makeStyles({
   media: {
@@ -16,17 +16,18 @@ export default function AboutInfoCard(): JSX.Element {
   const classes = useStyles()
   return (
     <Card className={classes.card}>
-      <Grid container>
+      <Grid container alignItems="center" justify="center">
         <Grid item>
           <CardMedia
             className={classes.media}
             image="https://avatars.githubusercontent.com/u/43592915"
           />
         </Grid>
-        <Grid>
+        <Grid item>
           <InfoCardContent title="Nickname" content="Kazu" />
-          <InfoCardContent title="AGE" content="24" />
+          <InfoCardContent title="Age" content="24" />
           <InfoCardContent title="Job" content="Applications Engineer" />
+          <SNSIcons />
         </Grid>
       </Grid>
     </Card>
