@@ -11,7 +11,7 @@ export default function AboutSection(props: Props): JSX.Element {
   return (
     <div>
       <div>
-        <Typography variant="h3" align="center" style={{ margin: 40 }}>
+        <Typography variant="h3" align="center" style={{ marginTop: 40 }}>
           {sectionTitle}
         </Typography>
       </div>

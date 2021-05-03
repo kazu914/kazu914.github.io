@@ -16,7 +16,7 @@ export default function AboutInfoCard(): JSX.Element {
   const classes = useStyles()
   return (
     <Card className={classes.card}>
-      <Grid container alignItems="center" justify="center">
+      <Grid container alignItems="center">
         <Grid item>
           <CardMedia
             className={classes.media}

@@ -1,25 +1,23 @@
 import React from "react"
 import Layout from "../../components/layout"
-import {
-  AboutInfoCard,
-  AboutSection,
-  CertificationInfoCard,
-  EducationInfoCard,
-  PublicationInfoCard,
-} from "../../organisms"
+import { ABOUT_CONTENTS } from "../../constants"
+import { AboutInfoCard, AboutSection, InfoCardBase } from "../../organisms"
 
 export default function About(): JSX.Element {
   return (
     <Layout>
       <AboutSection sectionTitle="About me" content={<AboutInfoCard />} />
-      <AboutSection sectionTitle="Education" content={<EducationInfoCard />} />
       <AboutSection
-        sectionTitle="Publication"
-        content={<PublicationInfoCard />}
+        sectionTitle="Educations"
+        content={<InfoCardBase contents={ABOUT_CONTENTS.EDUCATIONS} />}
+      />
+      <AboutSection
+        sectionTitle="Publications"
+        content={<InfoCardBase contents={ABOUT_CONTENTS.PUBLICATOINS} />}
       />
       <AboutSection
         sectionTitle="Certifications"
-        content={<CertificationInfoCard />}
+        content={<InfoCardBase contents={ABOUT_CONTENTS.CERTICICATIONS} />}
       />
     </Layout>
   )
