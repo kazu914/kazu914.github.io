@@ -26,6 +26,7 @@ export default function AboutInfoCard(): JSX.Element {
         <Grid item>
           <InfoCardContent title="Nickname" content="Kazu" />
           <InfoCardContent title="Age" content="24" />
+          <InfoCardContent title="Degree" content="Master (Engineer)" />
           <InfoCardContent title="Job" content="Applications Engineer" />
           <SNSIcons />
         </Grid>
