@@ -1,7 +1,11 @@
 import React from "react"
 import Layout from "../../components/layout"
-import { ABOUT_CONTENTS } from "../../constants"
-import { AboutInfoCard, AboutSection, InfoCardBase } from "../../organisms"
+import { ABOUT_CONTENTS } from "../../about/constants"
+import {
+  AboutInfoCard,
+  AboutSection,
+  InfoCardBase,
+} from "../../about/organisms"
 
 export default function About(): JSX.Element {
   return (

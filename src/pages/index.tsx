@@ -16,7 +16,7 @@ const IndexPage = (): JSX.Element => (
         <Button variant="contained">自己紹介へ</Button>
       </Link>
       <br />
-      <Link to="blogs" style={{ textDecoration: "none" }}>
+      <Link to="blog" style={{ textDecoration: "none" }}>
         <Button variant="contained">ブログへ</Button>
       </Link>
     </Container>

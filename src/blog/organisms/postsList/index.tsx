@@ -1,6 +1,6 @@
 import React from "react"
 
-import { PostsListQuery } from "../../../types/graphql-types"
+import { PostsListQuery } from "../../../../types/graphql-types"
 import PostsListRow from "../postsListRow"
 
 interface Props {
