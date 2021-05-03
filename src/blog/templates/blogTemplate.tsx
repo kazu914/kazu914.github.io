@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, PageProps } from "gatsby"
-import { BlogIndexQuery } from "../../types/graphql-types"
+import { BlogIndexQuery } from "../../../types/graphql-types"
 
 export default function Template(
   props: PageProps<BlogIndexQuery>

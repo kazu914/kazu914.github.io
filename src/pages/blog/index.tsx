@@ -3,7 +3,7 @@ import { graphql, PageProps } from "gatsby"
 import Layout from "../../components/layout"
 
 import { PostsListQuery } from "../../../types/graphql-types"
-import { PostsList } from "../../organisms"
+import { PostsList } from "../../blog/organisms"
 
 export default function Blog(props: PageProps<PostsListQuery>): JSX.Element {
   return (
