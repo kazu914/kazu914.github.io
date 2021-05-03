@@ -14,7 +14,7 @@ const useStyles = makeStyles({
 export default function AboutInfoCard(): JSX.Element {
   const classes = useStyles()
   return (
-    <GridCard>
+    <GridCard justify="center">
       <Grid item>
         <CardMedia
           className={classes.media}
