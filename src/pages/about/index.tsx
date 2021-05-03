@@ -1,7 +1,11 @@
 import { Typography } from "@material-ui/core"
 import React from "react"
 import Layout from "../../components/layout"
-import { AboutInfoCard, EducationInfoCard } from "../../organisms"
+import {
+  AboutInfoCard,
+  EducationInfoCard,
+  PublicationInfoCard,
+} from "../../organisms"
 
 export default function About(): JSX.Element {
   return (
@@ -18,6 +22,12 @@ export default function About(): JSX.Element {
         </Typography>
       </div>
       <EducationInfoCard />
+      <div>
+        <Typography variant="h3" align="center" style={{ margin: 40 }}>
+          Publication
+        </Typography>
+      </div>
+      <PublicationInfoCard />
     </Layout>
   )
 }
