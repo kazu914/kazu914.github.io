@@ -5,12 +5,13 @@ type InfoCardContentProps = React.ComponentProps<typeof InfoCardContent>
 
 interface Props {
   contents: InfoCardContentProps[]
+  title: string
 }
 
 export default function InfoCardBase(props: Props): JSX.Element {
-  const { contents } = props
+  const { title, contents } = props
   return (
-    <GridCard>
+    <GridCard title={title}>
       {contents.map(item => (
         <InfoCardContent
           key={item.content}
